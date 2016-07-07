@@ -1,0 +1,13 @@
+<web-app>
+<listener>
+<listener-class>MyListener</listener-class>
+</listener>
+<servlet>
+<servlet-name>ListenerServlet</servlet-name>
+<servlet-class>ListenerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ListenerServlet</servlet-name>
+<url-pattern>/ls</url-pattern>
+</servlet-mapping>
+</web-app>

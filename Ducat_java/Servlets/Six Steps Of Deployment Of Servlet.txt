@@ -1,0 +1,26 @@
+SIX WAYS FOR CALLING A SERVLET
+
+COLD DEPLOYMENT ->
+
+1- Make url pattern in xml is <url-pattern>/demo</url-pattern>
+[in place of demo any name can give]
+
+2- <url-pattern>index.html</url-pattern>
+[Every web app has a default page which is use as blank request]
+
+3- <url-pattern>/abc.html</url-pattern> 
+[via any html file name]
+
+HOT DEPLOYMENT ->
+
+4- <url-pattern>index.html</url-pattern>
+[it will make ur servlet as default page.Now no need to add war file
+just copy war file in autodeploy folder via cmd and open direct in 
+browser.Now we can send blank request via browser by default it find
+html file]
+
+5- <url-pattern>*.go</url-pattern>
+[In place of * anything can write but .go extension must]
+
+6- <url-pattern>/*</url-pattern>
+[Now any type of request can come from browser.servlet always execute]

@@ -1,0 +1,24 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<! DOCTYPE taglib 
+	PUBLIC "-//sun Microsystems,Inc.//DID JSP Tag Library 1.2//EN"
+	"http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+	
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.1</jsp-version>
+<short-name>MyTag</short-name>
+<tag>
+<name>MyDate</name>
+<tag-class>my.MyDate</tag-class>
+<body-content>JSP</body-content>
+</tag>
+<variable>
+<name-given>user</name-given>
+<variable-class>java.lang.String</variable-class>
+</variable>
+<tag>
+<name>SubTag</name>
+<tag-class>my.SubTag</tag-class>
+</tag>
+
+</taglib>

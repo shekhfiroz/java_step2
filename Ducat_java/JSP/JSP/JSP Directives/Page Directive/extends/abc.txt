@@ -1,0 +1,13 @@
+Compiled from "JspBase.java"
+public abstract class weblogic.servlet.jsp.JspBase implements javax.servlet.Servlet,javax.servlet.jsp.HttpJspPage {
+  protected javax.servlet.ServletConfig _servletConfig;
+  public weblogic.servlet.jsp.JspBase();
+  public final void init(javax.servlet.ServletConfig) throws javax.servlet.ServletException;
+  public javax.servlet.ServletConfig getServletConfig();
+  public final void service(javax.servlet.ServletRequest, javax.servlet.ServletResponse) throws javax.servlet.ServletException, java.io.IOException;
+  public java.lang.String getServletInfo();
+  public final void destroy();
+  public void jspInit();
+  public void jspDestroy();
+  public abstract void _jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException, java.io.IOException;
+}

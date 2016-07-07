@@ -1,0 +1,8 @@
+Compiled from "__page.java"
+public final class jsp_servlet.__page extends my.Temp123 implements weblogic.servlet.jsp.StaleIndicator {
+  static {};
+  public jsp_servlet.__page();
+  public boolean _isStale();
+  public static boolean _staticIsStale(weblogic.servlet.jsp.StaleChecker);
+  public void _jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException, java.io.IOException;
+}

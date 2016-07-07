@@ -1,0 +1,10 @@
+<web-app>
+<servlet>
+<servlet-name>MyCookieWithAge</servlet-name>
+<servlet-class>MyCookieWithAge</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyCookieWithAge</servlet-name>
+<url-pattern>/mca</url-pattern>
+</servlet-mapping>
+</web-app>
